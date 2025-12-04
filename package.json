@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "description": "CorpusMeta Editor: A full-stack web application for managing and organizing metadata for corpus items with dynamic fields and flexible data structures.""scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -16,7 +16,7 @@
     "react-dom": "^19.1.0",
     "react-router": "^6.20.1",
     "react-router-dom": "^6.20.1",
-    "uuid": "^11.1.0"
+    "description": "CorpusMeta Editor: A full-stack web application for managing and organizing metadata for corpus items with dynamic fields and flexible data structures.",
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

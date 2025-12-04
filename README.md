@@ -1,6 +1,6 @@
-# Metadata Editor
+# CorpusMeta Editor
 
-A full-stack web application for managing and organizing metadata for corpus items with dynamic fields and flexible data structures. Built with React TypeScript frontend, Node.js backend, and MongoDB database.
+CorpusMeta Editor is a full-stack web application for managing and organizing metadata for corpus items with dynamic fields and flexible data structures. Built with React TypeScript frontend, Node.js backend, and MongoDB database.
 
 ## Features
 

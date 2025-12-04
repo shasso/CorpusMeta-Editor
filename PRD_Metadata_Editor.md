@@ -1,10 +1,10 @@
 # Product Requirements Document (PRD)
-## Metadata Editor Web Application
+## CorpusMeta Editor Web Application
 
 ### Document Information
 - **Version**: 1.0
 - **Date**: August 1, 2025
-- **Project**: Metadata Editor for Corpus Items
+- **Project**: CorpusMeta Editor for Corpus Items
 - **Status**: Draft
 
 ---

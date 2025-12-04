@@ -24,9 +24,9 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <BookOpen className="h-8 w-8 text-blue-600" />
-              <h1 className="ml-3 text-xl font-semibold text-gray-900">
-                Metadata Editor
-              </h1>
+                <h1 className="ml-3 text-xl font-semibold text-gray-900">
+                  CorpusMeta Editor
+                </h1>
             </div>
             <nav className="flex space-x-8">
               {navigation.map((item) => {
@@ -63,9 +63,9 @@ const Layout = ({ children }: LayoutProps) => {
         <footer className="bg-gradient-to-b from-white/90 to-gray-100/90 dark:from-neutral-800/80 dark:to-neutral-900/80 backdrop-blur-sm border-t border-gray-200/60 dark:border-neutral-700/60 shadow-inner">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm text-gray-600 dark:text-neutral-400">
             <span className="block font-medium text-gray-700 dark:text-neutral-300 mb-1">
-              Metadata Editor
+              MIMALT: Makaru Institute for Modern Assyrian Language Technologies
             </span>
-            <span>© {year} </span>
+            <span>A Initiative by </span>
             <a
               href="https://sparksoftsystems.com/"
               target="_blank"
@@ -74,7 +74,6 @@ const Layout = ({ children }: LayoutProps) => {
             >
               Sparksoft Systems
             </a>
-            <span>. All rights reserved.</span>
           </div>
         </footer>
       </div>
