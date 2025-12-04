@@ -72,7 +72,8 @@ services:
 
 volumes:
   mongodb_data:
-    driver: local
+    external: true
+    name: app_mongodb_data
 
 networks:
   metadata-network:

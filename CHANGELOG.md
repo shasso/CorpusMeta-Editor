@@ -1,14 +1,25 @@
 # Changelog
 
-All notable changes to the Metadata Editor project will be documented in this file.
+All notable changes to the CorpusMeta Editor project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Changed
+
+- **Application Renamed**: Renamed from "Metadata Editor" to "CorpusMeta Editor"
+- **Package Name Updated**: Changed package.json name from "app" to "corpusmeta-editor"
+- **Project Folder Renamed**: Renamed project folder from "app" to "corpusmeta-editor"
+- **Branding Updated**: Updated UI header and all documentation to reflect new name
+- **Footer Updated**: Changed footer to display "MIMALT: Makaru Institute for Modern Assyrian Language Technologies - An Initiative by Sparksoft Systems"
+- **Docker Volume**: Configured to use existing MongoDB volume (app_mongodb_data) to preserve data after rename
+
 ### Fixed
 
+- Fixed JSON syntax error in package.json after rename
+- Removed unused 'year' variable from Layout.tsx
 - Corrected dashboard and create redirect links to use canonical route `/records/:id/edit` instead of incorrect `/edit/:id` path causing blank edit page.
 
 ### Added

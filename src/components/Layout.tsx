@@ -8,7 +8,6 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   const location = useLocation();
-  const year = new Date().getFullYear();
 
   const navigation = [
     { name: 'Dashboard', href: '/', icon: Home },
